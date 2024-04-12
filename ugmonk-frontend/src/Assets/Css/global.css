@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: #ccc;
+}
+
+#root{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.container{
+    width: 100%;
+    padding: 0 120px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
